@@ -1,0 +1,1 @@
+Put your data here. CIFAR-10 and CIFAR-100 can be downloaded by code, but ImageNet and ImageNet16-120 need to be downloaded from their website by yourself.
