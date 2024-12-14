@@ -14,5 +14,4 @@ pip install nas-bench-201
 python train_search.py --dataset [cifar10/cifar100/imagenet16-120] --edge_crit hep --split_ckpts 10,20,30 --kd_loss multi_teacher --subnets_training_epochs 10 --batch_size 128
 ```
 
-The performance of searched architecture will be reported directly in the terminal, using api.query_by_arch() function. You can set the batch_size to other numbers according to your device.
-
+The performance of searched architecture will be reported directly in the terminal, using api.query_by_arch() function. You can set the batch_size to other numbers according to your device. We used above split_ckpts and subnets_training_epochs for experiments, and you can try other settings to test performance.

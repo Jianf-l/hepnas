@@ -224,16 +224,3 @@ architectures = {'resnet': ResNet_CODE,
 # 07/31 11:31:49 AM cifar100 train 99.940000 valid 73.490000 test 73.510000
 # 07/31 11:31:49 AM imagenet16 train 73.230000 valid 46.370000 test 46.340000
 
-# 07/31 03:24:04 PM |nor_conv_3x3~0|+|skip_connect~0|nor_conv_3x3~1|+|nor_conv_3x3~0|none~1|skip_connect~2|
-# datasets : ['cifar10-valid', 'cifar10', 'cifar100', 'ImageNet16-120'], extra-info : arch-index=8733
-# cifar10-valid  FLOP=113.95 M, Params=0.802 MB, latency=19.28 ms.
-# cifar10-valid  train : [loss = 0.002, top1 = 99.99%], valid : [loss = 0.425, top1 = 91.04%]
-# cifar10        FLOP=113.95 M, Params=0.802 MB, latency=18.26 ms.
-# cifar10        train : [loss = 0.003, top1 = 99.97%], test  : [loss = 0.277, top1 = 93.94%]
-# cifar100       FLOP=113.96 M, Params=0.808 MB, latency=14.90 ms.
-# cifar100       train : [loss = 0.044, top1 = 99.55%], valid : [loss = 1.358, top1 = 70.88%], test : [loss = 1.331, top1 = 70.78%]
-# ImageNet16-120 FLOP= 28.50 M, Params=0.810 MB, latency=14.08 ms.
-# ImageNet16-120 train : [loss = 1.442, top1 = 60.76%], valid : [loss = 2.214, top1 = 44.93%], test : [loss = 2.234, top1 = 46.60%]
-# 07/31 03:24:04 PM cifar10 train 99.970000 test 93.940000
-# 07/31 03:24:04 PM cifar100 train 99.550000 valid 70.880000 test 70.780000
-# 07/31 03:24:04 PM imagenet16 train 60.760000 valid 44.930000 test 46.600000
